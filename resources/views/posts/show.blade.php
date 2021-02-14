@@ -3,9 +3,9 @@
 @section('title', 'Simple Board')
 
 @section('content')
-@if (session('message'))
+<!-- @if (session('message'))
         {{ session('message') }}
-    @endif
+    @endif -->
 
     <div class="card">
         <div class="card-body">
@@ -26,5 +26,5 @@
 
     <a href="/posts/{{ $post->id }}/edit">Edit</a>
     <a href="/posts">Back</a>
-    
+
 @endsection
